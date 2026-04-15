@@ -1,0 +1,203 @@
+/* 🔹 RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+ 
+/* 🔹 BODY */
+body {
+  background-color: #f5f7fb;
+  color: #1f2937;
+  min-height: 100vh;
+}
+ 
+/* 🔹 CONTAINER */
+.container,
+.container-fluid {
+  padding: 20px;
+}
+ 
+/* 🔹 HEADINGS */
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: #111827;
+}
+ 
+/* 🔹 CARD */
+.card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: 0.25s ease;
+}
+ 
+.card:hover {
+  transform: translateY(-3px);
+}
+ 
+/* 🔹 INPUTS */
+input,
+textarea,
+select {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 8px !important;
+  padding: 10px !important;
+  font-size: 14px;
+  background: #fff;
+  transition: 0.2s;
+}
+ 
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #2563eb !important;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+  outline: none;
+}
+ 
+/* 🔹 BUTTONS */
+.btn {
+  border-radius: 8px !important;
+  font-weight: 500;
+  padding: 8px 14px;
+  transition: 0.2s;
+}
+ 
+/* PRIMARY */
+.btn-primary {
+  background-color: #2563eb;
+  border: none;
+}
+ 
+.btn-primary:hover {
+  background-color: #1e40af;
+}
+ 
+/* SUCCESS */
+.btn-success {
+  background-color: #16a34a;
+  border: none;
+}
+ 
+.btn-success:hover {
+  background-color: #15803d;
+}
+ 
+/* DANGER */
+.btn-danger {
+  background-color: #dc2626;
+  border: none;
+}
+ 
+.btn-danger:hover {
+  background-color: #b91c1c;
+}
+ 
+/* DARK */
+.btn-dark {
+  background-color: #111827;
+}
+ 
+.btn-dark:hover {
+  background-color: #000;
+}
+ 
+/* 🔹 STATS GRID */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+}
+ 
+/* 🔹 STAT CARD */
+.stat-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+ 
+.stat-card p {
+  font-size: 13px;
+  color: #6b7280;
+}
+ 
+.stat-card h2 {
+  margin-top: 5px;
+  color: #111827;
+}
+ 
+/* 🔹 SECTION */
+.section {
+  margin-top: 25px;
+}
+ 
+/* 🔹 MODAL */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.modal-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 95%;
+  max-width: 550px;
+}
+ 
+/* 🔹 ACTION BUTTONS */
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+ 
+/* 🔹 TABLE */
+table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+ 
+/* 🔹 ALERT */
+.alert {
+  border-radius: 8px;
+}
+ 
+/* 🔹 NAVBAR (OPTIONAL USE) */
+.navbar-custom {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 12px 20px;
+}
+ 
+/* 🔹 SCROLLBAR */
+::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #9ca3af;
+  border-radius: 10px;
+}
+ 
+/* 🔹 RESPONSIVE */
+@media (max-width: 768px) {
+  .card {
+    padding: 14px;
+  }
+ 
+  h2 {
+    font-size: 18px;
+  }
+}
+ 

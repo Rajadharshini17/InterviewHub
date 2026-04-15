@@ -1,0 +1,143 @@
+.admin-container {
+  background: #f4f6fb;
+  min-height: 100vh;
+}
+
+.admin-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-navbar button {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.stats-grid {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.stat-card {
+  background: white;
+  padding: 20px;
+  width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+}
+
+.section {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.1);
+}
+
+.actions button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.approve {
+  background: green;
+  color: white;
+}
+
+.reject {
+  background: red;
+  color: white;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.user-table th,
+.user-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.muted {
+  color: #666;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-box {
+  background: white;
+  padding: 20px;
+  width: 600px;
+  max-height: 80vh;
+  overflow-y: auto;
+  border-radius: 10px;
+}
+
+.modal-actions {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.1);
+}
+
+.muted {
+  color: #666;
+  font-size: 14px;
+}
+.actions {
+  display: flex !important;
+  gap: 10px;
+  margin-top: 10px;
+}
+ 
+.approve {
+  background: green !important;
+  color: white !important;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+}
+ 
+.reject {
+  background: red !important;
+  color: white !important;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+}
+ 
